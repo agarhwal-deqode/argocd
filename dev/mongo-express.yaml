@@ -43,7 +43,7 @@ metadata:
 spec:
   selector:
     app: mongo-express
-  type: LoadBalancer   #accepts request and and generate and external ip address to accepts external requests
+  type: nodePort   #accepts request and and generate and external ip address to accepts external requests
   ports:
     - protocol: TCP
       port: 8081
