@@ -1,5 +1,0 @@
-resources:
-  - mongo.yaml
-  - mongo-express.yaml
-commonLabels:
-  owner: anushka
